@@ -19,16 +19,20 @@
     "next": "13.2.4",
     "react": "18.2.0",
     "react-dom": "18.2.0",
+    "react-icons": "^4.8.0",
     "styled-components": "^5.3.9",
     "typescript": "5.0.2"
   },
   "devDependencies": {
+    "@types/react-icons": "^3.0.0",
     "@types/styled-components": "^5.1.26"
   },
   "babel": {
     "env": {
       "development": {
-        "presets": ["next/babel"],
+        "presets": [
+          "next/babel"
+        ],
         "plugins": [
           [
             "styled-components",
@@ -40,7 +44,9 @@
         ]
       },
       "production": {
-        "presets": ["next/babel"],
+        "presets": [
+          "next/babel"
+        ],
         "plugins": [
           [
             "styled-components",

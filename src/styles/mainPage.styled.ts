@@ -41,8 +41,9 @@ export const FlexRow = styled.div`
 `
 export const MenuElement = styled(MainPageTitle)`
     font-size: 3rem;
-    border: 1px solid red;
+    opacity: 0;
     margin: 5rem;
+    cursor: pointer;
     position: absolute;
     border-radius: 50px;
     background: #444444;
